@@ -6,12 +6,15 @@
 
 package com.pvilla.vista;
 
+import com.pvilla.modelo.HolaMundo;
+
 /**
  * @Instituto Rumiñahui
  * @author Paola
  */
 public class AplicacionMain {
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
+        HolaMundo hola = new HolaMundo();
+        hola.hola();
     }
 }
